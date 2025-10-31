@@ -109,6 +109,7 @@ main a:hover {
 /* footer stuff here */
 footer {
     background-color: #eaeaea;
+    clear: both;
     text-align: center;
     padding: 1rem 0;
     font-size: .8rem;
@@ -117,4 +118,8 @@ footer {
 footer p {
     margin: 0;
     letter-spacing: 3px;
+}
+figure A {
+    float: left;
+    height: auto;
 }
