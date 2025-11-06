@@ -105,6 +105,11 @@ main a:hover {
     color: rgb(180, 4, 18);
 }
 
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+
 
 /* footer stuff here */
 footer {
