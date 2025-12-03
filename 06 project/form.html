@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form method="get" class="joinform" action="thanks.html">
+        <fieldset>
+            <legend>contact information</legend>
+            
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            <label>Email Address*<input type="text" name="Email" required></label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>class</legend>
+            <label><input type="radio" name="method" value="class">woodworking101</label>
+                <label><input type="radio" name="method" value="class">wood-types</label>
+                <label><input type="radio" name="method" value="class">machines</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>past experiences</legend>
+             <label><input type="checkbox" name="past classes" value="chosen">past classes</label>
+             <select name="class"> <option value="none">Please Select</option>
+                    <option value="ms rice woodwork class">ms rice woodwork class</option>
+                    <option value="mr green woodworking">mr green woodworking</option>
+                    <option value="other">other</option></select>
+                <label><input type="checkbox" name="family ed" value="chosen">family educator</label>
+                <label><input type="checkbox" name="self ed" value="chosen">self education</label>
+            
+        </fieldset>
+        <fieldset>
+            <label><input type="textarea" name="self ed" >extra information</label>
+        </fieldset>
+        <input type="submit" value="send request">
+    </form>
+</body>
+</html>
