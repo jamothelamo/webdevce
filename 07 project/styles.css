@@ -1,0 +1,243 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    text-align: center;
+}
+
+/* header stuff here */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #024873;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/* navigation stuff here */
+nav {
+    background-color: #f2b705;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #024873;
+    color: #f2b705;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #b40412;
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #b40412;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black
+}
+
+main em {
+    font-weight: 300;
+    color: #b40412;
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+}
+
+main a {
+    color: #024873;
+}
+
+main a:hover {
+    color: rgb(180, 4, 18);
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* footer stuff here */
+footer {
+    background-color: #eaeaea;
+    clear: both;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+figure A {
+    float: left;
+    height: auto;
+}
+
+.joinform fieldset {
+    border: 1px solid #4392b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.joinform legend {
+    color: #664404;
+    font-size: .8rem;
+}
+
+.joinform fieldset {
+background-color: #afafaf;
+
+}
+
+.joinform {
+    text-align: left;
+    float: left;
+
+}
+
+.joinform label, .joinform select, .joinform [type=text], .joinform [type=tel], .joinform textarea {
+    display: block;
+}
+
+.joinform [type=submit] {
+    background-color: #43a0b6;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+.logo {
+    float: left;
+}
+
+@media only screen and (min-width: 801px) {
+nav {
+    border-top: solid 1px #E0E6E6;
+    
+}
+nav  {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav  {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #8C501B;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+}
+
+nav  {
+    border-bottom: solid 2px #8b5022;
+}
+nav  {
+    color: #000;
+}
+}
+@media only screen and (max-width: 800px) {
+nav {
+    margin: 0;
+    padding: 0;
+}
+nav  {
+    display: block;
+    text-align: center;
+    padding: .8rem;
+    color: #8C501B;
+    text-decoration: none;
+    border-bottom:solid 1px #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav .active a {
+    background-color: #8C501B;
+    color: white;
+    background-image: linear-gradient(to bottom, #8b5022, #663b19);
+}
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
